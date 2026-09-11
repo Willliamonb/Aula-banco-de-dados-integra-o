@@ -1,0 +1,23 @@
+.cadastro {
+  min-height: calc(100vh - 73px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.cadastro__ficha {
+  width: 100%;
+  max-width: 400px;
+  background: var(--tinta-clara);
+  border-radius: var(--raio);
+  padding: 40px 36px 32px;
+  border-top: 3px solid var(--dourado);
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6);
+}
+
+.cadastro__epigrafe {
+  color: var(--pergaminho-suave);
+  font-size: 0.9rem;
+  margin: 8px 0 30px;
+}
